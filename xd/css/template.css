@@ -1,0 +1,47 @@
+body
+{
+    margin: 0;
+    font-family: 'Segoe UI';
+    font-size: 25px;
+    color: #ff0000;
+    background-color: black;
+}
+
+.container
+{
+    width: 1950px;
+    margin: auto;
+}
+
+h1
+{
+    font-size: 100px;
+    background: linear-gradient(to right, orange, black);
+    /* background: linear-gradient(to right, #ff7e5f, #feb47b); */
+    font-weight: 80;
+    margin: 0;
+    padding: 80px 40px 20px 10px;
+    color: white;
+}
+
+
+
+.splash
+{
+    /* Pozycja niezależna od strony i od suwaków */
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    /* Kolor tła */
+    background: black;
+
+    /* Całe okno */
+    width: 100vw;       /* 100% szerokości okna */
+    height: 100vh;      /* 100% wysokości okna */
+
+    /* Wycentrowanie */
+    display: flex;
+    justify-content: center;        /* wycentrowanie w poziomie */
+    align-items: center;            /* wycentrowanie w pionie */
+}
